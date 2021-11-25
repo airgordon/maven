@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>osseum</groupId>
+	<artifactId>fruit-lib</artifactId>
+    <version>2.0.0</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <second-prop-fruit.version>14</second-prop-fruit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>osseum</groupId>
+			<artifactId>fruit</artifactId>
+            <version>${second-prop-fruit.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
